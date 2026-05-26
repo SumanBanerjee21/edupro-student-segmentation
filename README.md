@@ -36,7 +36,7 @@ streamlit run app.py
 2. In Streamlit Community Cloud, select the GitHub repository.
 3. Set the main file path to `app.py`.
 4. Deploy.
-
+5. Check this Streamlit App: https://edupro-student-segmentation-lapuqd9zyyt5ezhaelbdzn.streamlit.app/
 The app reads the Excel file with a path relative to `app.py`, so it works the same locally and
 on Streamlit Cloud when the workbook is committed to the repository.
 
