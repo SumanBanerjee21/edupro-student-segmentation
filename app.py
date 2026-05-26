@@ -336,7 +336,7 @@ def segment_profiles(
     )
 
 
-@st.cache_data(show_spinner="Building learner segmentation model...")
+@st.cache_resource(show_spinner="Building learner segmentation model...")
 def build_model(path: str, k_override: int | None = None) -> ModelArtifacts:
     users, courses, transactions = load_workbook(path)
     profiles, enrollments = build_learner_profiles(users, courses, transactions)
